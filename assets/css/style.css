@@ -1,0 +1,25 @@
+.menu {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 7rem;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+  }
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: #3A404E;
+    margin-left: 8px;
+}
