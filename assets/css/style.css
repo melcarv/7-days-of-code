@@ -99,4 +99,32 @@
     font-size: 16px;
     font-weight: 400;
     color: var(--texto);
+    line-height: 24px;
+}
+
+/* vagas */
+
+.vagas {
+    text-align: center;
+}
+
+.vagas__anuncio {
+    padding: 4px 12px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--bordo);
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--titulo);
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--texto);
 }
