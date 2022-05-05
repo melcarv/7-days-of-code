@@ -2,6 +2,7 @@
     --bordo: #8E2424;
     --texto: #667085;
     --titulo: #101828;
+    --contornos: #EAECF0;
     font-family: 'Inter', sans-serif;
 }
 
@@ -136,6 +137,7 @@
     font-weight: 600;
     color: var(--titulo);
     margin-top: 30px;
+    letter-spacing: -0.02em;
 }
 
 .vagas__texto {
@@ -144,4 +146,81 @@
     color: var(--texto);
     margin-top: 30px;
     margin-bottom: 60px;
+}
+
+.vagas__area {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--titulo)
+  }
+
+.vagas__cargo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--titulo);
+}
+
+.vagas__oferta {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--texto)
+}
+
+.vagas__dados {
+    border: 1px solid var(--contornos);
+    border-radius: 16px;
+}
+
+.depoimentos {
+    background-color: #C3191908;
+}
+
+.depoimentos__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--bordo);
+    letter-spacing: -0.02em;
+  }
+
+  .depoimentos__relato {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--titulo);
+    letter-spacing: -0.02em;
+  }
+
+  .depoimentos__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--titulo);
+  }
+
+  .depoimentos__cargo {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--texto);
+  }
+
+.formulario__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--titulo);
+    letter-spacing: -0.02em;
+}
+
+.formulario__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--texto);
+}
+
+.formulario__email {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+}
+
+.formulario__dr {
+    font-size: 16px;
+    font-weight: 400;
+    color: #98A2B3;
 }
